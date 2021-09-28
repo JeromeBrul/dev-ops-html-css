@@ -1,0 +1,21 @@
+
+@font-face {
+    font-family: "Trump";
+    src: url('fonts/Nunito-Black.ttf') format('truetype'),
+        url('fonts/Nunito-Regular.ttf') format('truetype');
+
+}
+body{
+    padding: 30px;
+    font-family: 'Trump',sans-serif;
+}
+div{
+    font-size: 32px;
+}
+/* Rem vient recuperer la taille de la police initial du html (ici 16px)
+Em vient recuperer la taille definie par le parent */
+h1{
+    font-family: 'Oswald','sans sherif';
+    font-size: 3em; /* 3x32px */
+    font-size: 3rem; /* 3x16px */
+}

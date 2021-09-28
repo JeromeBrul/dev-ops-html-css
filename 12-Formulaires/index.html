@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaires</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="nom">Nom:</label>
+            <input type="text" name="nom_de_famille" id="nom"
+            placeholder="Entrez votre nom" value="">
+        </div>
+        <div>
+            <input type="number" name="" id="">
+            <input type="color" name="" id="">
+            <input type="time" name="" id="">
+            <input type="date" name="" id="">
+            <input type="email" name="" id="">
+            <input type="password" name="" id="">
+     
+        </div>
+        <div>
+            <label for="Toto">Je valide que ce formateur est fou</label>
+            <input type="checkbox" name="Totoestcool" id="tropcool">
+        </div>
+
+        <div>
+            <h2>Ton animal prefere</h2>
+            <input type="radio" name="animal" id="chien" value="chien">
+            <label for="chien">Chien</label>
+            <input type="radio" name="animal" id="chat" value="chat">
+            <label for="chat">Chat</label>
+            
+        </div>
+        <div>
+            <label for="text">mes remarques sur le cours de max</label>
+            <br>
+            <br>
+            <textarea name="montexte" id="text" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <h2>Choisis une ou tes couleurs favorites</h2>
+            <select name="color" id="color">
+                <option value="default" selected disabled>Choisir une couleur</option>
+                <option value="blue">Blue</option>
+                <optgroup label="sous-couleur">
+                    <option value="pourpre">Pourpre</option>
+                    <option value="vermillon">vermillon</option>
+                </optgroup>
+            </select>
+        </div>
+        <button type="submit">Envoyer</button>
+        <button type="reset">Annuler</button>
+
+    </form>
+    
+</body>
+</html>
