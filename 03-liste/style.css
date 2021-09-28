@@ -1,0 +1,16 @@
+                                                                                /* on peut ajouter plusieurs classe a la meme dic */
+.liste {
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:lightcoral;
+    margin-left: 20px;
+    letter-spacing: 5px;
+    text-decoration: underline wavy;
+}
+.liste-car {
+    color:lightskyblue;
+}
+#voitures {                                                                     /* pour acceder a une id on utilise # et le . pour une classe */
+    list-style-type: armenian;
+}

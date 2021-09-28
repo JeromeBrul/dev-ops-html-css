@@ -1,0 +1,15 @@
+div {
+    background-color: lightgreen;
+    width: 250px;                                        /*px % pt em rem vw */
+    height: 350px;                                       /*px % pt em rem vh */
+                                                         /*margin = espace exterieur
+                                                          padding = espace interieur*/
+    margin: 100px 50px 50px 50px;
+    padding: 50px;
+    border-radius: 5%;
+    margin: 0 auto;
+                                                         /*margin 0 auto permet de centrer horizontalement une div */
+
+    
+
+}

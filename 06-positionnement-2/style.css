@@ -1,0 +1,19 @@
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background-color: lightsalmon;
+}
+
+.container{
+    width: 80%;
+    height: 350px;
+    margin: 0 auto;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.boxsmall{
+    align-self: center;
+}

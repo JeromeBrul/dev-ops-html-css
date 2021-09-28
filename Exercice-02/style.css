@@ -1,0 +1,31 @@
+nav{
+    max-width: 400px;
+    left: 100px;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+.header ul li{
+    position: relative;
+}
+
+.header ul li ul{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+}
+
+.header ul li:hover > ul {
+    display: flex;
+} 

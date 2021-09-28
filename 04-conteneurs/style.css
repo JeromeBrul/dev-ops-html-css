@@ -1,0 +1,13 @@
+.wrapper{
+    width: 960px;
+    min-width: 600px;
+    margin: 0 auto;
+    background-color: lightsalmon;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px 30px;
+}
+.wrapper main img{
+    width: 500px;
+    
+
+}

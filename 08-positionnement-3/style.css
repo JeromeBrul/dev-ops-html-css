@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    height: 300vh;  /*on va utiliser les vh qui correspondent a la hauteur de l'ecran 100vh=hauteur ecran */
+}
+
+p{
+    margin: 125px auto;
+    padding: 10px;
+    width: 250px;
+    background-color: lightgray;
+    position: relative;
+
+}
+.promo{
+    position: absolute; /*la position absolute va permettre a cette div de flotter et se positionner par rapport a la div parent ayant une position relative */
+    top: -20px;
+    right: -20px;
+    background-color: orange;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+
+}
+.header ul {
+    display: flex;
+    list-style: none;
+}
+.header ul li ul {
+    display: none;
+}

@@ -1,0 +1,40 @@
+body{
+    background-color: red;
+    
+}
+img{
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+hr{
+    width: 50%;
+    height: 5px;
+    border: none;
+    background-color: green;
+}
+h1,h2,h3,h4,h5{
+    text-align: center;
+}
+.hobby{
+    display: inline-block;
+   align-items: center;
+}
+.hobby img {
+    width: 100px;
+    height: 100px;
+}
+#experiences {
+    color: green;
+    margin-left:48%;
+}  
+#formations {
+    color:blue;
+    margin-left: 48%;
+}
+
+.hobby-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

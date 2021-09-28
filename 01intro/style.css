@@ -1,0 +1,16 @@
+p {
+    color: chartreuse !important;
+
+}
+
+h1 {
+    font: 12px;
+}
+
+strong {
+    color:green
+}
+
+.toto {
+    background-color: orangered;
+}

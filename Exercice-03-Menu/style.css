@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    background-color: lightgray;
+}
+
+ul li{
+    margin-right: 10px;
+    position: relative;
+}
+
+ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: lightgray;
+}
+
+ul li ul{
+    display: none;
+    flex-direction: column;
+    padding: 0;
+    position: absolute;
+}
+
+ul li ul li{
+    margin-right: 0;
+}
+
+ul li:hover > ul {
+    display: flex;
+
+}
+
+.submenu ul {
+    right: 0;
+    top: 0;
+    transform: translate(100%);
+}
