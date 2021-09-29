@@ -44,7 +44,7 @@ h1{
     color: white;
     background-color: none;
     font-size: 80px;
-    padding-top: 50px; 
+    padding-top: 300px; 
 }
 h2{
     text-align: center;
@@ -97,9 +97,16 @@ h3,h4,h5{
     padding: 0;
     
 }
-.client h1, h2{
+.client h1{
     
     color:black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.client h2{
+    padding-top: 50px;
+    color: black;
 }
 .opinions{
 
@@ -107,4 +114,6 @@ h3,h4,h5{
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
+    
 }
+
