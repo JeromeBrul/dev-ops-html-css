@@ -1,0 +1,8 @@
+table td{
+    border: 2px solid black;
+    padding: 20px;
+}
+table{
+    /**border collapse permet d'assembler les differente bordures des cellules de notre tableau**/
+    border-collapse: collapse;
+}
