@@ -1,0 +1,59 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;  
+}
+nav{
+    max-width: 400px;
+}
+.navbarre{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.navbarre img{
+    height: 100%;
+    padding: 10px;
+}
+.header ul{
+    width: 50vh;
+    list-style: none;
+    display: flex;
+    background-color:none;
+    color: white;
+    justify-content: space-around;   
+}
+header{
+    background: url("./img/billboard.jpg");
+    height: 100vh;
+}
+header::after{
+    position: absolute;
+    content: "";
+    display: block;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    background: url('./img/shadow.png') repeat-x top center;
+}
+h1{
+    text-align: center;
+    color: white;
+    background-color: none;
+    font-size: 80px;
+    padding-top: 300px; 
+}
+h2{
+    text-align: center;
+    color: white;
+    background-color: none; 
+}
+hr{
+    width: 15px;
+    height: 2px;
+    border: thin;
+    background-color:white;
+}
+.icons{
+    background-color: white;
+    display: flex;
+}
