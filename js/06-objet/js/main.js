@@ -1,3 +1,6 @@
+
+// import * as i from'./stagiaires.json';
+// console.log(stagiaires) ;
 // // var personnage1 = new Object();
 // // personnage1.name = "Aragorne";
 // // personnage1.house = "Gondor";
@@ -133,3 +136,30 @@ var DIList = {
         }
     ]
 };
+
+//exo
+//afficher le nom et prenom de chaque stagiaires
+// afficher le prenom des stagiaires qui commence par M J ou P
+
+for(var i = 0; i < DIList.stagiaires.length; i++) {
+    console.log(DIList.stagiaires[i].firstname +" " +DIList.stagiaires[i].lastname);
+}
+
+
+
+for(var i = 0; i < DIList.stagiaires.length; i++) {
+    if (DIList.stagiaires[i].firstname.startsWith('M') || DIList.stagiaires[i].firstname.startsWith('J') || DIList.stagiaires[i].firstname.startsWith('P')){
+        console.log(DIList.stagiaires[i].firstname);
+    } 
+}
+
+for(var key in DIList.stagiaires){
+    console.log(DIList.stagiaires[key]["firstname"] + " " + DIList.stagiaires[key]["lastname"])
+}
+
+for(var key in DIList.stagiaires){
+    if(DIList.stagiaires[key]["firstname"].charAt(0)=="M"||DIList.stagiaires[key]["firstname"].charAt(0)=="J"||DIList.stagiaires[key]["firstname"].charAt(0)=="P")
+{
+    console.log(DIList.stagiaires[key]["firstname"]);
+}
+}
